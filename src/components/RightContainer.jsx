@@ -23,7 +23,7 @@ const RightContainer = () => {
                         <img src={title}></img>
                     </div>
                     <div className="md:ml-[32%] ml-[20%] py-8">
-                        <p className="font-medium text-[#181D27] text-xl">Welcome to CodeAnt AI</p>
+                        <p className="font-medium text-[#181D27] sm:text-xl text-lg">Welcome to CodeAnt AI</p>
                     </div>
                     <div className="width-[90%]">
                         <button onClick={handleClickSAAS} className={`${isSAAS ? 'bg-[#1570EF] text-white' : 'bg-zinc-50 text-[#414651] border border-[#E9EAEB]'} py-2 px-4 w-[50%] rounded-md`}>SAAS</button>

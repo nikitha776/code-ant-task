@@ -30,11 +30,11 @@ const LeftContainer = () => {
                         </div>
                     </div>
                 </div>
-                <div className="absolute shadow-custom bg-white rounded-2xl w-[190px] h-[125px] mt-[39%] ml-[40%] z-20">
+                <div className="absolute shadow-custom bg-white rounded-2xl w-[28%] h-[19%] mt-[39%] ml-[40%] z-20">
                     <div className="flex">
-                        <div className="m-4">
+                        <div className="m-[5%]">
                             <img src={pieChart} className="w-[45px] mb-2"></img>
-                            <p className="text-xs font-bold mb-1">Issues Fixed</p>
+                            <p className="sm:text-xs font-bold mb-1">Issues Fixed</p>
                             <p className="font-bold text-xl">500K+</p>
                         </div>
                         <div className="m-4 my-6">

@@ -19,7 +19,7 @@ const LeftPanel = () => {
             <option>Kalyan</option>
         </select>
         <ul>
-            <li className = "my-4 py-1 px-2 bg-[#1570EF] rounded-md text-white ml-[10%] w-[80%] flex"><IoHomeOutline className = "text-white font-extrabold text-xl m-1 mr-2"/><div className = "m-1 font-semibold">Repositories</div></li>
+            <li className = "my-4 py-1 px-1 bg-[#1570EF] rounded-md text-white ml-[10%] w-[80%] flex"><IoHomeOutline className = "text-white font-extrabold text-xl m-1 mr-2"/><div className = "m-1 font-semibold">Repositories</div></li>
             <li className = "ml-[10%] w-[80%] flex m-2"><FaCode className = "font-extrabold text-xl m-1 mr-2"/><div className = "text-[#414651] font-medium">AI Code Review</div></li>
             <li className = "ml-[10%] w-[80%] flex m-2"><CiCloudOn className = "font-extrabold text-xl m-1 mr-2"/><div className = "text-[#414651] font-medium">Cloud Security</div></li>
             <li className = "ml-[10%] w-[80%] flex m-2"><FaBook className = "font-extrabold text-xl m-1 mr-2"/><div className = "text-[#414651] font-medium">How to Use</div></li>
