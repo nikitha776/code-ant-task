@@ -8,8 +8,8 @@ const LeftContainer = () => {
     return (
         <div className="lg:w-[50%] lg:h-screen lg:relative lg:block hidden text-[#081735]">
             <div className = "ml-[10%]">
-                <div className="h-[20%] w-[47%] absolute mt-[150px] ml-[75px] shadow-custom bg-white rounded-2xl z-10 overflow-hidden">
-                    <div className="flex gap-4 p-4 border-b border-[#E6E8F0]">
+                <div className="h-[20%] w-[47%] absolute mt-[22%] ml-[10%] shadow-custom bg-white rounded-2xl z-10 overflow-hidden">
+                    <div className="flex gap-4 p-4 border-b border-[#E6E8F0] h-[50%]">
                         <div>
                             <img src={image2} className="w-[90%]"></img>
                         </div>
@@ -30,7 +30,7 @@ const LeftContainer = () => {
                         </div>
                     </div>
                 </div>
-                <div className="absolute shadow-custom bg-white rounded-2xl w-[190px] h-[125px] mt-[275px] ml-[275px] z-20">
+                <div className="absolute shadow-custom bg-white rounded-2xl w-[190px] h-[125px] mt-[39%] ml-[40%] z-20">
                     <div className="flex">
                         <div className="m-4">
                             <img src={pieChart} className="w-[45px] mb-2"></img>
